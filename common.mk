@@ -115,7 +115,7 @@ PRODUCT_PACKAGES += \
     android.hardware.boot-service.qti.recovery
 
 # Camera
-$(call soong_config_set_bool,camera,override_format_from_reserved,true)
+$(call soong_config_set,camera,override_format_from_reserved,true)
 
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.camera.concurrent.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.camera.concurrent.xml \
@@ -232,7 +232,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/keylayout/uinput-goodix.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/uinput-goodix.kl
 
 # Lineage Health
-$(call soong_config_set_bool,lineage_health,charging_control_supports_bypass,false)
+$(call soong_config_set,lineage_health,charging_control_supports_bypass,false)
 
 PRODUCT_PACKAGES += \
     vendor.lineage.health-service.default
