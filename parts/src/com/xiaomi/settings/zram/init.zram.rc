@@ -1,0 +1,14 @@
+# Run on boot
+on property:vendor.post_boot.parsed=1
+    start vendor.zram_config
+
+# Run whenever the user changes the setting
+on property:persist.vendor.zram.size=*
+    start vendor.zram_config
+
+service vendor.zram_config /vendor/bin/sh /vendor/bin/zram_config.sh
+    class main
+    user root
+    group root
+    oneshot
+    disabled

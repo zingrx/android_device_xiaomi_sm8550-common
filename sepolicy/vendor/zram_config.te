@@ -1,0 +1,22 @@
+type zram_config, domain;
+type zram_config_exec, exec_type, vendor_file_type, file_type;
+
+init_daemon_domain(zram_config)
+
+allow zram_config vendor_shell_exec:file rx_file_perms;
+allow zram_config vendor_toolbox_exec:file rx_file_perms;
+
+# Permission to toggle ZRAM and write to sysfs
+allow zram_config sysfs_zram:dir r_dir_perms;
+allow zram_config sysfs_zram:file rw_file_perms;
+
+# Permission to access the zram block device
+allow zram_config block_device:dir r_dir_perms;;
+allow zram_config ram_device:blk_file rw_file_perms;
+
+# Admin capabilities for swapoff/swapon/mkswap and swappiness
+allow zram_config self:capability sys_admin;
+
+# Permission to read and set the zram properties
+get_prop(zram_config, vendor_zram_prop)
+set_prop(zram_config, vendor_zram_prop)

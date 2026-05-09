@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2023 Paranoid Android
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Xiaomi Settings -->
+    <string name="app_title">Настройки Xiaomi</string>
+    <string name="tile_add">Добавить плитку</string>
+    <string name="tile_added">Плитка добавлена</string>
+    <string name="tile_not_added">Плитка не добавлена</string>
+    <string name="tile_already_added">Плитка уже добавлена</string>
+    <string name="tile_on">Вкл</string>
+    <string name="tile_off">Выкл</string>
+
+    <!-- Clear Speaker -->
+   <string name="clear_speaker_title">Очистка динамика</string>
+   <string name="clear_speaker_summary">Воспроизвести 30-секундный звук для очистки динамика</string>
+   <string name="clear_speaker_description">Используйте эту функцию 1-2 раза, если динамик слегка засорен пылью. Установите громкость на максимум.\n\nЕсли динамик сильно засорен, запустите функцию 2-5 раз, встряхивая устройство динамиком вниз.</string>
+
+    <!-- Custom seekbar -->
+    <string name="custom_seekbar_value">Значение: <xliff:g id="v">%s</xliff:g></string>
+    <string name="custom_seekbar_default_value">по умолчанию</string>
+    <string name="custom_seekbar_default_value_to_set">Значение по умолчанию: <xliff:g id="v">%s</xliff:g>\nДолгое нажатие для установки</string>
+    <string name="custom_seekbar_default_value_is_set">Значение по умолчанию установлено</string>
+
+    <!-- Auto hbm -->
+    <string name="auto_hbm_title">Автоматический режим высокой яркости (HBM)</string>
+    <string name="auto_hbm_main_switch_title">Использовать автоматический HBM</string>
+    <string name="tile_auto_hbm">Авто HBM</string>
+    <string name="tile_hbm_on">Включено</string>
+    <string name="tile_hbm_off">Выключено</string>
+    <string name="tile_hbm">HBM</string>
+    <string name="tile_hbm_unavailable">HBM недоступен</string>
+    <string name="tile_auto_hbm_or_brightness_enabled">Авто HBM или автояркость включены</string>
+    <string name="hbm_mode_title">Режим высокой яркости</string>
+    <string name="hbm_mode_notification">Режим высокой яркости активирован. Длительное использование может повредить дисплей.</string>
+    <string name="auto_hbm_summary">Автоматически включать режим высокой яркости в зависимости от интенсивности солнечного света (люкс)</string>
+    <string name="auto_hbm_threshold_title">Порог освещенности</string>
+    <string name="auto_hbm_threshold_summary">Установите порог освещенности в люксах для активации HBM</string>
+    <string name="auto_hbm_enable_time_title">Время активации</string>
+    <string name="auto_hbm_enable_time_summary">Длительность в секундах, в течение которой должен соблюдаться порог освещенности для активации HBM</string>
+    <string name="auto_hbm_disable_time_title">Время деактивации</string>
+    <string name="auto_hbm_disable_time_summary">Длительность в секундах, в течение которой HBM отключается при падении освещенности ниже порога</string>   
+
+    <!-- Thermal Profiles -->
+    <string name="thermal_title">Тепловой профиль для каждого приложения</string>
+    <string name="thermal_enable">Использовать тепловые профили для каждого приложения</string>
+    <string name="thermal_summary">Настройте тепловые профили для каждого приложения для оптимальной производительности</string>
+    <string name="thermal_default">По умолчанию</string>
+    <string name="thermal_benchmark">Тест производительности</string>
+    <string name="thermal_browser">Браузер</string>
+    <string name="thermal_camera">Камера</string>
+    <string name="thermal_dialer">Дозвонщик</string>
+    <string name="thermal_gaming">Игры</string>
+    <string name="thermal_navigation">Навигация</string>
+    <string name="thermal_streaming">Трансляция</string>
+    <string name="thermal_video">Видео</string>
+
+    <!-- Thermal Tile Strings -->
+    <string name="thermal_tile_label">Температурный профиль для каждого приложения</string>
+    <string name="thermal_tile_enabled_subtitle">Включено</string>
+    <string name="thermal_tile_disabled_subtitle">Отключено</string>
+
+    <!-- Zram Settings -->
+    <string name="zram_size_title">Размер ZRAM</string>
+    <string name="zram_size_summary">Настройка размера подкачки ZRAM</string>
+    <string name="zram_disabled">Отключено</string>
+    <string name="zram_size_dynamic">Динамический (по умолчанию)</string>
+    <string name="zram_size_2gb">2 ГБ</string>
+    <string name="zram_size_4gb">4 ГБ</string>
+    <string name="zram_size_8gb">8 ГБ</string>
+    <string name="zram_size_12gb">12 ГБ</string>
+    <string name="zram_summary">Выберите настройки ZRAM</string>
+    <string name="zram_change_applied">Настройки ZRAM сохранены (вступят в силу после перезагрузки)</string>
+    <string name="zram_reboot_recommended">Для применения изменений перезагрузите устройство</string>
+    <string name="zram_compression_title">Алгоритм сжатия</string>
+    <string name="zram_compression_summary">Выберите алгоритм сжатия ZRAM</string>
+    <string name="swappiness_title">Агрессивность подкачки</string>
+    <string name="swappiness_summary">Настройка интенсивности подкачки страниц памяти ядром (по умолчанию: 60)</string>
+    <string name="swappiness_value">%1$d</string>
+    <string name="zram_change_failed">Не удалось применить настройки ZRAM</string>
+    <string name="advanced_settings">Дополнительные настройки</string>
+
+    <!-- HyperCharge Strings -->
+    <string name="hypercharge_title">120 Вт HyperCharge</string>
+    <string name="hypercharge_on">HyperCharge включен</string>
+    <string name="hypercharge_off">HyperCharge выключен (ограничено)</string>
+    <string name="hypercharge_main_switch_title">Включить 120 Вт HyperCharge</string>
+    <string name="hypercharge_description_title">Об этой функции</string>
+    <string name="hypercharge_description_summary">«При включении ваше устройство будет заряжаться с максимальной скоростью 120 Вт. При отключении скорость зарядки будет ограничена стандартной скоростью для снижения нагрева и потенциального продления срока службы аккумулятора. По умолчанию функция HyperCharge включена».</string>
+
+    <!-- Power Profile Strings -->
+    <string name="powerprofile_tile_label">Профиль питания</string>
+    <string name="configure_gpu">Настроить частоту графического процессора</string>
+    <string name="powerprofile_mode_balance">Сбалансированный</string>
+    <string name="powerprofile_mode_performance">Производительность</string>
+    <string name="powerprofile_mode_battery_saver">Экономия заряда батареи</string>
+    <string name="powerprofile_mode_gaming">Игровой</string>
+    <string name="powerprofile_mode_unknown">Неизвестный режим</string>
+    <string name="powerprofile_tile_disabled_subtitle">Отключено (термические профили для каждого приложения включены)</string>
+    <string name="perf_mode_title">Режим высокой производительности</string>
+    <string name="perf_mode_notification">Режим высокой производительности теперь активирован для повышения производительности.</string>
+    <string name="gaming_mode_title">Game Boost</string>
+    <string name="gaming_mode_notification">Режим Game Boost теперь активирован для оптимальной производительности в играх.</string>
+    <string name="power_profile_footer_summary">Примечание: Более высокие частоты (например, частота графического процессора выше 900 МГц и более высокая частота основного ядра) доступны только в режиме Game Boost.</string>
+
+    <!-- Powertools Main Title -->
+    <string name="Powertools_title">Профили питания</string>
+    <string name="Powertools_summary">Настройте профили питания, частоты ЦП/ГП и параметры регулятора для оптимизации производительности и эффективности</string>
+    <string name="power_profile_mode_title">Режим мощности</string>
+
+    <!-- GPU Strings -->
+    <string name="gpu_optimizer_title">Оптимизатор графического процессора</string>
+    <string name="gpu_optimizer_summary">Включить настройку производительности графического процессора</string>
+    <string name="gpu_min_frequency">Минимальная частота графического процессора</string>
+    <string name="gpu_max_frequency">Максимальная частота графического процессора</string>  
+    <string name="cpu_optimizer_title">Оптимизатор ЦП</string>
+    <string name="cpu_optimizer_summary">Включить настройку производительности ЦП</string>
+    <string name="cpu_little_cluster_title">Малый кластер</string>
+    <string name="cpu_big_cluster_title">Большой кластер</string>
+    <string name="cpu_prime_cluster_title">Основной кластер</string>
+    <string name="min_frequency_title">Мин.частота</string>
+    <string name="max_frequency_title">Макс.частота</string>
+    <string name="governor_title">Говерновер</string>
+</resources>

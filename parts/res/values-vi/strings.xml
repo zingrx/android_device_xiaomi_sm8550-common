@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2023 Paranoid Android
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Xiaomi Settings -->
+    <string name="app_title">Cài đặt Xiaomi</string>
+    <string name="tile_add">Thêm tiêu đề</string>
+    <string name="tile_added">Đã thêm ô</string>
+    <string name="tile_not_added">Chưa thêm ô</string>
+    <string name="tile_already_added">Ô đã được thêm vào</string>
+    <string name="tile_on">Bật</string>
+    <string name="tile_off">Tắt</string>
+    <!-- Clear Speaker -->
+    <string name="clear_speaker_title">Làm sạch loa</string>
+    <string name="clear_speaker_summary">Phát âm thanh 30 giây để làm sạch loa</string>
+    <string name="clear_speaker_description">Chạy tính năng này một hoặc hai lần nếu bạn thấy loa của mình bị bụi bám nhẹ. Đặt âm lượng phương tiện ở mức tối đa.\n\nNếu loa bị chặn nhiều, hãy chạy tính năng này 2-5 lần trong khi lắc thiết bị của bạn với loa hướng xuống dưới.</string>
+    <!-- Custom seekbar -->
+    <string name="custom_seekbar_value">Giá trị: <xliff:g id="v">%s</xliff:g></string>
+    <string name="custom_seekbar_default_value">theo mặc định</string>
+    <string name="custom_seekbar_default_value_to_set">Giá trị mặc định: <xliff:g id="v">%s</xliff:g>\nNhấn giữ lâu để thiết lập</string>
+    <string name="custom_seekbar_default_value_is_set">Đã đặt giá trị mặc định</string>
+    <!-- Auto hbm -->
+    <string name="auto_hbm_title">Độ sáng cao tự động</string>
+    <string name="auto_hbm_main_switch_title">Sử dụng HBM tự động</string>
+    <string name="tile_auto_hbm">Tự động bật HBM</string>
+    <string name="tile_hbm_on">Đã bật</string>
+    <string name="tile_hbm_off">Đã tắt</string>
+    <string name="tile_hbm">Độ Sáng Cao</string>
+    <string name="tile_hbm_unavailable">HBM Không có sẵn</string>
+    <string name="tile_auto_hbm_or_brightness_enabled">Tự động HBM hoặc Độ sáng tự động được bật</string>
+    <string name="hbm_mode_title">Độ sáng cao</string>
+    <string name="hbm_mode_notification">Chế độ Độ sáng cao hiện đã được kích hoạt. Sử dụng trong thời gian dài có thể làm hỏng màn hình của bạn.</string>
+    <string name="auto_hbm_summary">Tự động kích hoạt chế độ độ sáng cao dựa vào cường độ ánh sáng xung quanh (lux)</string>
+    <string name="auto_hbm_threshold_title">Ngưỡng ánh sáng</string>
+    <string name="auto_hbm_threshold_summary">Định ngưỡng mức ánh sáng để HBM được kích hoạt</string>
+    <string name="auto_hbm_enable_time_title">Thời gian bật</string>
+    <string name="auto_hbm_enable_time_summary">Thời gian tính bằng giây mà ngưỡng ánh sáng đạt mức để kích hoạt HBM</string>
+    <string name="auto_hbm_disable_time_title">Thời gian tắt</string>
+    <string name="auto_hbm_disable_time_summary">Thời gian tính bằng giây mà ngưỡng ánh sáng dưới mức để kích hoạt HBM</string>
+    <!-- Thermal Profile -->
+    <string name="thermalprofile_title">Cấu hình hiệu năng</string>
+    <string name="thermalprofile_default">Mặc định</string>
+    <string name="thermalprofile_game">Trò chơi</string>
+    <string name="thermalprofile_battery">Tiết kiệm pin</string>
+    <string name="thermalprofile_unknown">Không rõ</string>
+    <!-- Zram Settings -->
+    <string name="zram_size_title">Mở rộng Ram ảo</string>
+    <string name="zram_size_summary">Tùy chỉnh dung lượng Ram ảo</string>
+    <string name="zram_disabled">Tắt</string>
+    <string name="zram_size_dynamic">Linh động (Mặc định)</string>
+    <string name="zram_size_2gb">2GB</string>
+    <string name="zram_size_4gb">4GB</string>
+    <string name="zram_size_8gb">8GB</string>
+    <string name="zram_size_12gb">12 GB</string>
+    <string name="zram_summary">Chọn dung lượng Ram ảo để áp dụng</string>
+    <string name="zram_change_applied">Đã lưu Ram ảo (Phải khởi động lại thiết bị)</string>
+    <string name="zram_reboot_recommended">Để thay đổi có hiệu lực, vui lòng khởi động lại thiết bị của bạn</string>
+    <string name="zram_compression_title">Thuật toán nén</string>
+    <string name="zram_compression_summary">Chọn thuật toán nén ZRAM</string>
+    <string name="swappiness_title">Thời gian Swap</string>
+    <string name="swappiness_summary">Điều chỉnh mức độ tích cực của các trang bộ nhớ hoán đổi kernel (mặc định: 60)</string>
+    <string name="swappiness_value">%1$d</string>
+    <string name="zram_change_failed">Không áp dụng cài đặt ZRAM</string>
+    <string name="advanced_settings">Cài đặt nâng cao</string>
+</resources>
